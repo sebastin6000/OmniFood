@@ -4,6 +4,8 @@ tints : #fdf2e9
 shades : #cf7158
 */
 
+/*  GENERAL COMPONENTS */
+/*               */
 * {
   padding: 0;
   margin: 0;
@@ -21,9 +23,28 @@ body {
   color: #555;
 }
 
+/*  HEADER-SECTION */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdf2e9;
+  /* we want header to be fixed that's why we are doing this */
+  height: 9.6rem;
+  padding: 0 4.8rem;
+}
+
+.logo {
+  height: 2.2rem;
+}
+
+/*--------------------------------------*/
+
+/*  HERO-SECTION */
+
 .section-hero {
   background-color: #fdf2e9;
-  padding: 9.6rem 0;
+  padding: 4.8rem 0 9.6rem 0;
 }
 
 .hero {
@@ -33,6 +54,7 @@ body {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 9.6rem;
+  padding: 0 3.2rem;
 }
 
 .heading-primary {
